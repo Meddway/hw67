@@ -3,10 +3,12 @@ import Keyboard from './components/Keyboard/Keyboard';
 
 function App() {
   return (
-    <>
-      <Display/>
-      <Keyboard/>
-    </>
+    <div className="calculator">
+      <div className="container">
+        <Display />
+      </div>
+      <Keyboard />
+    </div>
   );
 }
 
